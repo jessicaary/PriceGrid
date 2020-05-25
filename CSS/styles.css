@@ -1,0 +1,122 @@
+body {
+  background: hsl(204, 43%, 93%);
+  font-family: "Karla", sans-serif;
+}
+h3 {
+  color: hsl(179, 62%, 43%);
+}
+h4 {
+  color: white;
+}
+p {
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+}
+span {
+  font-size: 28px;
+  color: white;
+}
+.container {
+  margin: 100px auto 100px auto;
+  position: relative;
+  width: 660px;
+  height: 491.25px;
+  box-shadow: 2px 3px 20px rgba(159, 159, 159, 0.728);
+  border-radius: 15px;
+}
+.banner {
+  background-color: white;
+  width: 600px;
+  padding: 30px;
+  margin: 100px auto 0 auto;
+  margin-bottom: 0;
+  border-radius: 15px 15px 0 0;
+}
+.banner-subheader {
+  color: #c0df34;
+}
+.banner-par {
+  color: hsl(218, 22%, 67%);
+  line-height: 1.5;
+}
+.left-box {
+  background-color: hsl(179, 62%, 43%);
+  margin-top: 0;
+  margin-bottom: 100px;
+  height: 250px;
+  width: 300px;
+  padding-top: 15px;
+  padding-left: 30px;
+  position: absolute;
+  left: 0;
+  border-radius: 0 0 0 15px;
+}
+
+.right-box {
+  background-color: hsla(179, 62%, 43%, 0.728);
+  margin-top: 0;
+  margin-bottom: 100px;
+  height: 250px;
+  width: 300px;
+  padding-top: 15px;
+  padding-left: 30px;
+  position: absolute;
+  right: 0;
+  border-radius: 0 0 15px 0;
+}
+.price {
+  color: rgba(255, 255, 255, 0.632);
+}
+.attribution {
+  bottom: 0;
+}
+.button {
+  box-shadow: 0px 10px 14px -7px #5e5e5e;
+  background-color: #c0df34;
+  border-radius: 4px;
+  border: 1px solid #c0df34;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 100px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b5b5b5;
+  margin-top: 10px;
+}
+.button:hover {
+  background-color: #b2c748;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .banner {
+    width: 100%;
+    border-radius: 0;
+  }
+  .left-box {
+    width: 100%;
+    display: block;
+    position: static;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  .right-box {
+    width: 100%;
+    display: block;
+    position: static;
+    margin-bottom: 50px;
+    border-radius: 0;
+  }
+  .attribution {
+    position: relative;
+    top: 200px;
+    bottom: 0;
+  }
+}
